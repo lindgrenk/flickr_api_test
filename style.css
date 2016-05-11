@@ -1,0 +1,66 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: arial;
+}
+
+header {
+	padding-bottom: 30px;
+	background-color: #eee;
+	border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+	padding-top: 20px;
+	text-align: center;
+	color: #333;
+}
+
+img {
+	border-radius: 5px;
+	margin: 10px;
+	height: 190px;
+}
+
+img:hover {
+	opacity: 0.8;
+}
+
+button {
+	background-color: #bbb;
+	padding: 0;
+	width: 60px;
+	height: 20px;
+	border: none;
+	outline: none;
+	border-radius: 3px;
+}
+
+button:hover {
+	background-color: pink;
+}
+
+#content {
+	margin: 0px 5%;
+	text-align: center;
+}
+	
+#searchInput {
+	font-size: 1em;
+	margin-left: 20px;
+	height: 20px;
+	width: 200px;
+	outline: none;
+	border: none;
+	border-bottom: 2px solid #bbb;
+	border-radius: 3px;
+}
+#searchInput:hover {
+	border-bottom: 2px solid pink;
+}
+#searchInput:focus {
+	border-bottom: 2px solid pink;
+}
